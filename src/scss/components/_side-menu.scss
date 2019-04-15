@@ -1,0 +1,195 @@
+.side-menu{
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 300px;
+    background: $primaryColor;
+    height: 100vh;
+    bottom: 0;
+    z-index: 10;
+    transition: 0.2s;
+    left: 0;
+    &.active{
+        left: -300px;
+    }
+    @include mediaMax(1199px){
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+        @include mediaMax(1199px){
+            display: inline-flex;
+            height: 100%;
+            border-bottom: 0;
+            justify-content: end;
+            a h1{
+                
+            }
+        }
+        a{
+            h1{
+                color: $wh;
+                font-size: 35px;
+                @include mediaMax(1199px){
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        @include mediaMax(1199px){
+            transition: 0.3s;
+            position: fixed;
+            left: -80%;
+            background: $primaryColor;
+            width: 80%;
+            max-width: 250px;
+            height: calc(100% - 80px);
+            &.active{
+                left: 0;
+            }
+        }
+        li{
+            display: block;
+            margin-bottom: 20px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+            a{
+                display: block;
+                color: $wh;
+                font-size: 16px;
+                transition: 0.2s;
+                &:hover{
+                    color: $secondaryText;
+                    transform: translateX(10px);
+                }
+            }
+        }
+    }
+    &__collapse{
+        display: none;
+        @include mediaMax(1199px){
+            display: flex;
+            position: absolute;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            height: 30px;
+            margin: auto;
+            align-items: center;
+            
+            &.active{
+                span{
+                    transition: 0.3s;
+                    background: transparent;
+                    &:before{
+                        transform: rotate(-45deg);
+                        
+                    }
+                    &:after{
+                        transform: rotate(45deg);
+                        
+                    }
+                }
+            }
+        }
+        span{
+            display: block;
+            position: relative;
+            width: 25px;
+            height: 3px;
+            background: $wh;
+            &:before{
+                content: '';
+                width: 25px;
+                height: 3px;
+                background: $wh;
+                position: absolute;
+                top: -8px;
+                transition: 0.3s;
+            }
+            &:after{
+                content: '';
+                width: 25px;
+                height: 3px;
+                background: $wh;
+                position: absolute;
+                bottom: -8px;
+                transition: 0.3s;
+            }
+        }
+    }
+    &__switch{
+        position: absolute;
+        right: 0;
+        bottom: 100px;
+        cursor: pointer;
+        transition: 0.2s;
+        &.active{
+            right: -40px;
+            span svg{
+                transform: rotate(180deg);
+            }
+        }
+        span{
+            display: flex;
+            background: $secondaryText;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            svg{
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                fill: $wh;
+            }
+        }
+    }
+    &__social{
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        left: 0;
+        right: 0;
+        width: 180px;
+        margin: auto;
+        @include mediaMax(1199px){
+            display: none;
+        }
+        a{
+            svg{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                fill: $wh;
+            }
+            &:hover{
+                svg{
+                    fill: $secondaryText;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+section.section.section-portfolio(id="portfolio-section")
+    .mainTitle
+        h2 PORTFOLIO
+        span Some of my work
+    .container
+        .row
+            -for(let i=0;i<11;i++)
+                .col-md-4.col-xs-6
+                    .postNew
+                        .postNew__link.view-third
+                            img(src=data.work[i].img)
+                            .mask
+                                h2 #{data.work[i].title}
+                                p #{data.work[i].text}
+                                a.info(href=data.work[i].link target="blank") PREVIEW
