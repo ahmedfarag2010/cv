@@ -77,6 +77,18 @@
 			"img": "img/new-shamlola.png",
 			"text":"Section contains good videos for cooking recepies.",
 			"link": "http://new.shamlola.com/"
+		},
+		{
+			"title": "So3ody website",
+			"img": "img/so3ody-web.png",
+			"text":"This website is for football news and matches.",
+			"link": "http://www.so3ody.com/"
+		},
+		{
+			"title": "So3ody MobileApp",
+			"img": "img/so3ody-mobile.png",
+			"text":"This Application is for football news and matches.",
+			"link": "https://play.google.com/store/apps/details?id=com.mpa.so3ody"
 		}
 	]
 }
