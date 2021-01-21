@@ -1,22 +1,11 @@
 {
 	"work": [
-		{
-			"title": "Euro korabia",
-			"img": "img/euro.png",
-			"text":"Euro is a football project news about euro championship.",
-			"link": "http://euro.koorabia.com/"
-		},
+		
 		{
 			"title": "Shamlola",
 			"img": "img/shamlola.png",
 			"text":"This is about cooking recipies for women in the middle east and the world.",
 			"link": "http://shamlola.com/"
-		},
-		{
-			"title": "Can korabia",
-			"img": "img/can.png",
-			"text":"Can is a football project news about can championship.",
-			"link": "http://can.koorabia.com/"
 		},
 		{
 			"title": "PEC",
@@ -77,6 +66,24 @@
 			"img": "img/so3ody-mobile.png",
 			"text":"This Application is for football news and matches.",
 			"link": "https://play.google.com/store/apps/details?id=com.mpa.so3ody"
+		},
+		{
+			"title": "Betshoof website",
+			"img": "img/betshoof.png",
+			"text":"This website acting and famous actor news and cinemas and movies.",
+			"link": "https://www.betshoof.com/"
+		},
+		{
+			"title": "Red-one-sports website",
+			"img": "img/redonesports.png",
+			"text":"This website about helpeing talented players and play football.",
+			"link": "https://www.redonesports.com/"
+		},
+		{
+			"title": "Warshtk MobileApp",
+			"img": "img/warshtk-mobile.png",
+			"text":"TWarshtk, an online platform that provides all services related to car maintenance and road assistance all through one mobile application.",
+			"link": "https://play.google.com/store/apps/details?id=com.warshtk.app"
 		}
 	]
 }
