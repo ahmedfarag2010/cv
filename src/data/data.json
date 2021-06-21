@@ -8,52 +8,10 @@
 			"link": "http://shamlola.com/"
 		},
 		{
-			"title": "PEC",
-			"img": "img/pec.png",
-			"text":"This is about query about football players in club for choosing them.",
-			"link": "http://pec-co.net/"
-		},
-		{
-			"title": "TAG",
-			"img": "img/tag.png",
-			"text":"Personal website company about business work view for accountingand games.",
-			"link": "http://taj51.com/"
-		},
-		{
-			"title": "Waqef el-om",
-			"img": "img/waqef.png",
-			"text":"This is website about mother's day is an so important in suadi arabia.",
-			"link": "http://waqefelom.com/"
-		},
-		{
-			"title": "Community",
-			"img": "img/community.png",
-			"text":"An amazing website about football matches expection and challenges.",
-			"link": "http://korabia.activedd.com"
-		},
-		{
-			"title": "Korabreak",
-			"img": "img/break.png",
-			"text":"Is about football players's news and thier life news and hobbies and family.",
-			"link": "http://korabreak.com/"
-		},
-		{
 			"title": "Shoghlanty",
 			"img": "img/shoghlanty.png",
 			"text":"This project is about job's news in the world and in middle east.",
 			"link": "http://52.20.179.55/test/shoghlanty/index-ar.html"
-		},
-		{
-			"title": "MaxView",
-			"img": "img/maxview.png",
-			"text":"An e-commerce project for clothes selling for men,woman and kids.",
-			"link": "http://immigration-officer-elvis-13343.bitballoon.com/"
-		},
-		{
-			"title": "Worldcup",
-			"img": "img/worldcup.png",
-			"text":"For world cup russia 2018 news and championship matches.",
-			"link": "http://worldcup.koorabia.com/"
 		},
 		{
 			"title": "So3ody website",
@@ -82,8 +40,20 @@
 		{
 			"title": "Warshtk MobileApp",
 			"img": "img/warshtk-mobile.png",
-			"text":"TWarshtk, an online platform that provides all services related to car maintenance and road assistance all through one mobile application.",
+			"text":"Warshtk, an online platform that provides all services related to car maintenance and road assistance all through one mobile application.",
 			"link": "https://play.google.com/store/apps/details?id=com.warshtk.app"
+		},
+		{
+			"title": "Arriyadiyah MobileApp",
+			"img": "img/arriyadiyah.png",
+			"text":"Al Riyadiah is a daily newspaper specialized in sports news, launched in January 1987 in Riyadh.",
+			"link": "https://play.google.com/store/apps/details?id=com.arriyadiyah.app"
+		},
+		{
+			"title": "Warshtk Web",
+			"img": "img/warshtk-web.png",
+			"text":"Warshtk, an online platform that provides all services related to car maintenance and road assistance all through one mobile application.",
+			"link": "https://warshtk.com/"
 		}
 	]
 }
